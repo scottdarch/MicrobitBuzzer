@@ -2522,7 +2522,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="48.26" y1="40.64" x2="78.74" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="VOUT" class="0">
 <segment>
 <pinref part="C4" gate="A" pin="11"/>
 <wire x1="137.16" y1="12.7" x2="132.08" y2="12.7" width="0.1524" layer="91"/>
