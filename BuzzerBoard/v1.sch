@@ -2392,24 +2392,36 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheets>
 <sheet>
 <plain>
+<text x="-15.24" y="-10.16" size="1.778" layer="91">32bits.io | Micro:Bot (sorta) Loud Speaker</text>
 </plain>
 <instances>
-<instance part="U1" gate="A" x="50.8" y="20.32"/>
-<instance part="R1" gate="A" x="43.18" y="22.86" smashed="yes" rot="R180">
-<attribute name="VALUE" x="26.3144" y="30.8864" size="2.0828" layer="96" ratio="6" rot="SR180"/>
-<attribute name="NAME" x="25.6794" y="34.6964" size="2.0828" layer="95" ratio="6" rot="SR180"/>
+<instance part="U1" gate="A" x="50.8" y="20.32" smashed="yes">
+<attribute name="NAME" x="79.0956" y="29.4386" size="1.778" layer="95" ratio="10" rot="SR0"/>
+<attribute name="VALUE" x="78.4606" y="26.8986" size="1.778" layer="96" ratio="10" rot="SR0"/>
 </instance>
-<instance part="C1" gate="G$1" x="83.82" y="40.64" rot="R90"/>
+<instance part="R1" gate="A" x="43.18" y="22.86" smashed="yes" rot="R180">
+<attribute name="VALUE" x="28.3464" y="27.8384" size="1.778" layer="96" ratio="10" rot="SR180"/>
+<attribute name="NAME" x="28.4734" y="30.6324" size="1.778" layer="95" ratio="10" rot="SR180"/>
+</instance>
+<instance part="C1" gate="G$1" x="83.82" y="40.64" smashed="yes" rot="R90">
+<attribute name="NAME" x="80.899" y="42.164" size="1.778" layer="95" font="vector" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="85.979" y="42.164" size="1.778" layer="96" font="vector" ratio="10" rot="R90"/>
+</instance>
 <instance part="C2" gate="G$1" x="132.08" y="2.54"/>
 <instance part="C3" gate="G$1" x="111.76" y="-5.08"/>
-<instance part="R2" gate="G$1" x="132.08" y="-5.08" rot="R90"/>
+<instance part="R2" gate="G$1" x="132.08" y="-5.08" smashed="yes" rot="R90">
+<attribute name="NAME" x="130.302" y="-6.858" size="1.778" layer="95" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="135.382" y="-7.62" size="1.778" layer="96" ratio="10" rot="R90"/>
+</instance>
 <instance part="C4" gate="A" x="137.16" y="12.7" smashed="yes">
 <attribute name="VALUE" x="134.7978" y="15.7988" size="1.778" layer="96" ratio="10" rot="SR0"/>
 <attribute name="NAME" x="138.1506" y="9.7028" size="1.778" layer="95" ratio="10" rot="SR0"/>
 </instance>
 <instance part="U$1" gate="G$1" x="154.94" y="8.89"/>
 <instance part="J1" gate="J$1" x="-15.24" y="15.24"/>
-<instance part="GND" gate="G$1" x="83.82" y="-15.24"/>
+<instance part="GND" gate="G$1" x="83.82" y="-15.24" smashed="yes">
+<attribute name="VALUE" x="83.566" y="-18.034" size="1.778" layer="96" font="vector" ratio="10" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -2435,12 +2447,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="J1" gate="J$1" pin="2"/>
 <wire x1="-7.62" y1="15.24" x2="2.54" y2="15.24" width="0.1524" layer="91"/>
-<label x="-2.032" y="15.748" size="1.778" layer="95"/>
+<label x="-2.032" y="15.748" size="1.778" layer="95" ratio="10"/>
 </segment>
 <segment>
 <pinref part="U1" gate="A" pin="VS"/>
 <wire x1="114.3" y1="15.24" x2="124.46" y2="15.24" width="0.1524" layer="91"/>
-<label x="119.888" y="15.494" size="1.778" layer="95"/>
+<label x="119.888" y="15.494" size="1.778" layer="95" ratio="10"/>
 </segment>
 </net>
 <net name="GND" class="0">
