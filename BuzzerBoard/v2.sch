@@ -3194,8 +3194,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </sheet>
 </sheets>
 <errors>
-<approved hash="102,1,83.82,-12.7,3.3V,GND,,,,"/>
-<approved hash="104,1,114.3,15.24,U1,VS,3.3V,,,"/>
+<approved hash="102,1,53.34,-22.86,3.3V,GND,,,,"/>
+<approved hash="102,1,76.2,-22.86,3.3V,GND,,,,"/>
+<approved hash="104,1,71.12,27.94,U2,VDD,3.3V,,,"/>
+<approved hash="104,1,132.08,27.94,U2,PVDD,3.3V,,,"/>
+<approved hash="104,1,132.08,33.02,U2,DAP,GND,,,"/>
 </errors>
 </schematic>
 </drawing>
